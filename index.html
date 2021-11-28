@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,50 +10,187 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
 </head>
+
 <body>
-  
-  <nav class="navbar navbar-expand-md p-0 navbar-dark" style="background: #433939;">
-    <div class="container-fluid">
-      <a class="navbar-brand fs-3" href="./index.html">Curriculum</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav flex-fill">
-          <li class="nav-item flex-fill">
-            <a class="nav-link fs-4 text-center" href="./index.html">Inicio</a>
-          </li>
-          <li class="nav-item flex-fill">
-            <a class="nav-link fs-4 text-center" href="./whatIs.html">Conocimientos</a>
-          </li>
-          <li class="nav-item flex-fill">
-            <a class="nav-link fs-4 text-center" href="./work.html">Experiencia laboral</a>
-          </li>
-          <li class="nav-item flex-fill">
-            <a class="nav-link fs-4 text-center" href="./contact.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>  
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-xl-5 ms-xxl-5" href="./index.html"><i>Víctor</i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse justify-content-evenly" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#present">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-  <div class="card bg-dark text-white">
-    <img src="./img/fondo.jpg" class="card-img opacity-50" alt="fondo de presentacion">
-    <div class="card-img-overlay">
-      <h1 class="text-center">Presentación</h1>
-      <p class="text-center"> Hola, me llamo Víctor Martín Alonso y esta es mi pagina web, aqui podreis ver mis <a class="text-white" href="./whatIs.html">conocimientos</a> 
-      y mi <a class="text-white" href="./work.html">experiencia laboral</a>. Tambien podreis encontrar una seccion para contactar conmigo, ya sea para obtener mi 
-      curriculum o si simplemente me quieres sugerir algo, a parte, os contare un poco de mi y os diré como me manejo en entornos profesionales.</p>
-    </div>
-  </div>
-  <div class="container-fluid p-0">
+    <!-- Seccion Presentacion -->
+    <section id="present">
+        <div class="presentacion">
+            <h1>Presentacion</h1>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, eos eius quo aspernatur tempore earum ipsa eum reprehenderit pariatur placeat, dolorum mollitia. Quo consequatur labore incidunt, a praesentium nostrum officia?</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="" alt="">
+                </div>
+            </div>
 
-    
+        </div>
+    </section>
+    <hr>
+    <!-- Seccion Skills -->
+    <section id="Skills">
+        <div class="skills">
+            <h1>Skills</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque laboriosam, architecto eligendi delectus dolorem magnam, minima ipsa sapiente sint illo reiciendis recusandae aliquid aspernatur dolorum id amet omnis quo iure?</p>
+            <div class="skills-body">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Skill 1</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Skill 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Skill 3</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Skill 4</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Skill 5</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Seccion Projects -->
+    <section id="Projects">
+        <div class="projects">
+            <h1>Proyectos</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, itaque quaerat libero qui error in ad sed sequi. Quod, porro! Autem consequatur tenetur sint rerum, accusamus ex eius dolor aperiam!
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="http://www.github.com" class="btn btn-primary">github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="http://www.github.com" class="btn btn-primary">github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="http://www.github.com" class="btn btn-primary">github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="http://www.github.com" class="btn btn-primary">github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 5</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="http://www.github.com" class="btn btn-primary">github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Seccion Contact me -->
+    <footer class="Contacto">
+        <section id="Contact">
+            <h1>Contactame</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorem architecto excepturi eaque! Asperiores explicabo animi quo? Tempora nesciunt alias ea, omnis corporis assumenda nisi, velit delectus ratione ducimus voluptates?</p>
+        </section>
+    </footer>
 
-  </div>
-
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

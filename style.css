@@ -1,12 +1,64 @@
-.nav-link:hover{
-    background: rgb(92, 91, 90);
-    transition: 0.6s;
+* {
+    margin: 0px;
 }
 
-.card .card-img-overlay .text-center a{
-    text-decoration: none;
+
+/*==================== VARIABLES CSS ====================*/
+
+:root {
+    --margin: 10%
 }
 
-.card .card-img-overlay .text-center a:hover{
-    color:grey;
+
+/*==================== CABECERA ====================*/
+
+.header {
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+}
+
+.navbar-nav.nav-item.nav-link a:hover {
+    background-color: #a0f4f8;
+}
+
+
+/*==================== PRESENTACION ====================*/
+
+.presentacion {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+}
+
+
+/*==================== SKILLS ====================*/
+
+.skills {
+    text-align: center;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+}
+
+
+/*==================== PROYECTOS ====================*/
+
+.projects {
+    text-align: center;
+    align-items: center;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+}
+
+.card {
+    margin: 20px;
+}
+
+
+/*==================== CONTACTOS ====================*/
+
+.Contacto {
+    text-align: center;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
 }
