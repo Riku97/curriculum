@@ -2,6 +2,10 @@
     margin: 0px;
 }
 
+h2 {
+    padding-bottom: 15px;
+}
+
 
 /*==================== VARIABLES CSS ====================*/
 
@@ -15,10 +19,24 @@
 .header {
     margin-left: var(--margin);
     margin-right: var(--margin);
+    margin: 0%;
+}
+
+
+/*.container-fluid a {
+    margin-left: 20%;
+}*/
+
+.navbar-brand {
+    margin-left: 30%;
 }
 
 .navbar-nav.nav-item.nav-link a:hover {
-    background-color: #a0f4f8;
+    color: #a0f4f8;
+}
+
+#navbarNavDropdown {
+    margin-right: 20%;
 }
 
 
@@ -33,7 +51,8 @@
 
 .imagen {
     border-radius: 50%;
-    overflow: hidden;
+    overflow: auto;
+    width: inherit;
 }
 
 
