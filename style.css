@@ -2,7 +2,7 @@
     margin: 0px;
 }
 
-h2 {
+h1 {
     padding-bottom: 15px;
 }
 
@@ -39,20 +39,35 @@ h2 {
     margin-right: 20%;
 }
 
+section {
+    padding-top: 5%;
+}
+
 
 /*==================== PRESENTACION ====================*/
 
 .presentacion {
-    text-align: center;
-    margin-top: 5%;
+    text-align: justify;
+    align-items: center;
+    margin-top: 3%;
     margin-left: var(--margin);
     margin-right: var(--margin);
+}
+
+.presentacion dt {
+    font-size: x-large;
+}
+
+dd {
+    margin-top: 15px;
 }
 
 .imagen {
     border-radius: 50%;
     overflow: auto;
-    width: inherit;
+    width: 100%;
+    padding-left: var(--margin);
+    padding-right: 20%;
 }
 
 
@@ -62,6 +77,26 @@ h2 {
     text-align: center;
     margin-left: var(--margin);
     margin-right: var(--margin);
+}
+
+.skills h1 {
+    padding-bottom: 2%;
+}
+
+.skills .col-sm-4 {
+    margin-right: 20px;
+}
+
+.progress {
+    margin-top: 2%;
+}
+
+.accordion-header {
+    padding: 0px;
+}
+
+.accordion-button {
+    font-weight: bold;
 }
 
 
