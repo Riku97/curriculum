@@ -3,7 +3,7 @@
 }
 
 h1 {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 
@@ -21,11 +21,6 @@ h1 {
     margin-right: var(--margin);
     margin: 0%;
 }
-
-
-/*.container-fluid a {
-    margin-left: 20%;
-}*/
 
 .navbar-brand {
     margin-left: 30%;
@@ -66,6 +61,7 @@ dd {
     border-radius: 50%;
     overflow: auto;
     width: 100%;
+    padding: 10%;
     padding-left: var(--margin);
     padding-right: 20%;
 }
@@ -83,7 +79,7 @@ dd {
     padding-bottom: 2%;
 }
 
-.skills .col-sm-4 {
+.skills.col-sm-4 {
     margin-right: 20px;
 }
 
@@ -109,6 +105,10 @@ dd {
     margin-right: var(--margin);
 }
 
+.projects p {
+    font-size: larger;
+}
+
 .card {
     margin: 20px;
 }
@@ -120,4 +120,8 @@ dd {
     text-align: center;
     margin-left: var(--margin);
     margin-right: var(--margin);
+}
+
+#Contact p {
+    font-size: larger;
 }
