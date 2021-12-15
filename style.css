@@ -67,6 +67,31 @@ dd {
 }
 
 
+/*==================== FORMACION ====================*/
+
+.formaciones {
+    text-align: center;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+}
+
+.formaciones a {
+    text-decoration: none;
+}
+
+.formaciones h6 a:hover {
+    text-decoration: underline;
+}
+
+.formaciones h1 {
+    padding-bottom: 2%;
+}
+
+.formaciones.col-sm-4 {
+    margin-right: 20px;
+}
+
+
 /*==================== SKILLS ====================*/
 
 .skills {
