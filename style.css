@@ -83,11 +83,11 @@ dd {
     text-decoration: underline;
 }
 
-.formaciones h1 {
+.formaciones h2 {
     padding-bottom: 2%;
 }
 
-.formaciones.col-sm-4 {
+.formaciones.col {
     margin-right: 20px;
 }
 
@@ -96,20 +96,25 @@ dd {
 
 .skills {
     text-align: center;
+    align-items: center;
     margin-left: var(--margin);
     margin-right: var(--margin);
 }
 
-.skills h1 {
+.skills h2 {
     padding-bottom: 2%;
 }
 
-.skills.col-12 {
+.skills.col {
     margin-right: 80px;
 }
 
 .progress {
     margin-top: 2%;
+}
+
+.col {
+    min-height: 244px;
 }
 
 .accordion {
